@@ -1,10 +1,12 @@
+This is a python project which using FedAvg to predict the future temperature.
+
 environment configuration:
 Python 3.11
 conda install pandas
 conda install numpy
 conda install scikit-learn
 conda install matplotlib
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 #不小心在base也安装了
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 #install torch in base by accidient
 pip install tqdm
 
 parameter configuration：
